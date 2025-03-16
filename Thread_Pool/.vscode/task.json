@@ -1,0 +1,31 @@
+{
+  "tasks": [
+      {
+        "type":"cppbuild",
+        "label":"C/C++: g++ build active file",
+        "command":"F:\\SoftWare\\MingGW\\ucrt64\\bin\\gcc.exe",
+        "args":[
+           "-fdiagnostics-color=always",
+           "-g",
+           "*.cpp",
+            "-o",
+            "${fileDirname}\\program.exe"
+        ],
+        "options":{
+            "cwd":"${workspaceFolder}"
+        },
+        "problemMatcher":[
+            "$gcc"
+        ],
+        "group":{
+            "kind":"build",
+            "isDefault":true
+        },
+        "detail":"Generated task by Debugger."
+
+    
+      }
+      
+    
+      ]    
+}
